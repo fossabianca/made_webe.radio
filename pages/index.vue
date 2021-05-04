@@ -3,10 +3,18 @@
 
 <div class="container">
         <navbar></navbar>
+        <home></home>
+        <podcast></podcast>
+        <about></about>
+
 </div>
 
 </template>
 
 <script>
-export default {}
+import About from '../components/about.vue'
+import home from '../components/home.vue'
+import Podcast from '../components/podcast.vue'
+export default {
+  components: { home, About, Podcast },}
 </script>

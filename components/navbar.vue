@@ -1,72 +1,38 @@
 <template>
+<div class="h-screen w-16 menu bg-white text-white px-2 flex items-center nunito static fixed shadow">
 
-<div class="h-screen w-screen flex bg-gray-200">
-	<!-- container -->
-
-	<aside
-		class="flex flex-col items-center bg-white text-gray-700 shadow h-full">
-		<!-- Side Nav Bar-->
-
-		<div class="h-16 flex items-center w-full my-10">
-			<!-- Logo Section -->
-			<a class="h-15 w-15 mx-auto" href="#">
-				<img
-					class="h-12 w-12 mx-auto"
-					src="~/assets/img/logo.png"
-					alt="logo" />
-			</a>
-		</div>
-
-		<ul>
-			<!-- Items Section -->
-			<li class="hover:bg-gray-100 mt-8">
-				<a
-					href="."
-					class="h-16 px-6 flex flex justify-center items-center w-full
-					focus:text-orange-500">
-					<img class="h-10 w-12" src="~/assets/img/icona_home.png" alt="">
-
+        <ul class="list-reset ">
+            <li class="my-2 md:my-0 ">
+                <a href="#home" class="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400">
+                    <i class="fas fa-tasks fa-fw mr-3"></i><img class="h-15 w-15 mb-2" src="~/assets/img/logo.png">
+					
+                </a>
+            </li>
+			<li class="my-2 md:my-0 ">
+                <a href="#home" class="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400">
+                    <i class="fas fa-tasks fa-fw mr-3"></i><img class="h-10 w-12 mb-2" src="~/assets/img/icona_home.png" alt="home">
+                </a>
+            </li>
+            <li class="my-2 md:my-0">
+                <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400">
+                    <i class="fa fa-envelope fa-fw mr-3"></i><img class="h-10 w-12 mb-2" src="~/assets/img/icona_cuffie.png" alt="podcast">
+                </a>
+            </li>
+            <li class="my-2 md:my-0">
+                <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400">
+                    <i class="fas fa-chart-area fa-fw mr-3 text-indigo-400"></i><img class="h-12 w-12 mb-2" src="~/assets/img/icona_news.png" alt="news">
+                </a>
+            </li>
+            <li class="my-2 md:my-0">
+                <a href="#about" class="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400">
+                    <i class="fa fa-wallet fa-fw mr-3"></i><img class="h-12 w-12 mb-2" src="~/assets/img/icona_punto_interrogativo.png" alt="about">
 				</a>
-			</li>
+            </li>
+        </ul>
 
-			<li class="hover:bg-gray-100 mt-8">
-				<a
-					href="."
-					class="h-16 px-6 flex flex justify-center items-center w-full
-					focus:text-orange-500">
-					<img class="h-10 w-12" src="~/assets/img/icona_cuffie.png" alt="">
-                    
-
-				</a>
-			</li>
-
-			<li class="hover:bg-gray-100 mt-8">
-				<a
-					href="."
-					class="h-16 px-6 flex flex justify-center items-center w-full
-					focus:text-orange-500">
-
-					<img class="h-12 w-12" src="~/assets/img/icona_news.png" alt="">
-
-				</a>
-			</li>
-
-			<li class="hover:bg-gray-100 mt-8">
-				<a
-					href="."
-					class="h-16 px-6 flex flex justify-center items-center w-full
-					focus:text-orange-500">
-					<img class="h-12 w-12" src="~/assets/img/icona_punto_interrogativo.png" alt="">
-
-				</a>
-			</li>   
-
-		</ul>
-	</aside>
-    <home></home>
-</div>
-
+    </div>
 </template>
 <script>
 export default {}
 </script>
+
