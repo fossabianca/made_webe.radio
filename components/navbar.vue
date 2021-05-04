@@ -7,7 +7,7 @@
 		class="flex flex-col items-center bg-white text-gray-700 shadow h-full">
 		<!-- Side Nav Bar-->
 
-		<div class="h-16 flex items-center w-full mt-8">
+		<div class="h-16 flex items-center w-full my-10">
 			<!-- Logo Section -->
 			<a class="h-15 w-15 mx-auto" href="#">
 				<img
