@@ -9,10 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/markdownit": "^2.0.0",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3",
-    "vue-md-loader": "^1.1.8"
+    "nuxt": "^2.15.3"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.0.1",
