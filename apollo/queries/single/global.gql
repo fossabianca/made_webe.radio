@@ -1,0 +1,15 @@
+query Global {
+global {
+      siteName
+      favicon {
+        url
+      }
+      defaultSeo {
+        metaTitle
+        metaDescription
+        shareImage {
+          url
+        }
+      }
+    }
+}

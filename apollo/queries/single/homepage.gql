@@ -1,0 +1,19 @@
+query Homepage {
+  homepage {
+    seo {
+      metaTitle
+      metaDescription
+      shareImage {
+        name
+        caption
+        formats
+        width
+        height
+        url
+      }
+    }
+    hero {
+      title
+    }
+  }
+}

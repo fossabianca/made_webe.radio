@@ -1,0 +1,27 @@
+query Podcasts {
+  podcasts (sort: "date:desc") {
+    id
+    title
+    slug
+    date
+    description
+    spreaker_id
+    spreaker_limited
+    school {
+      name
+    }
+    cover {
+      url
+      width
+      height
+    }
+    tags {
+      name
+    }
+    episodes {
+      id
+      title
+      slug
+    }
+  }
+}

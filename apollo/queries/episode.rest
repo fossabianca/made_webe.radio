@@ -1,0 +1,109 @@
+
+@baseUrl = http://api.webe.radio:1338/graphql
+###
+POST {{baseUrl}} HTTP/1.1
+Content-Type: application/json
+X-REQUEST-TYPE: GraphQL
+
+query Episodes {
+  episodes {
+    id
+    title
+    slug
+    episode_number
+    date
+    description
+    spreaker_id
+    spreaker_limited
+    tags {
+      name
+    }
+    cover {
+      url
+      width
+      height
+    }
+    audio {
+      url
+    }
+    podcast {
+      id
+      title
+      slug
+    }
+  }
+}
+
+###
+# @name pippo
+POST {{baseUrl}}
+Content-Type: application/json
+X-REQUEST-TYPE: GraphQL
+
+query Episodes {
+  episodes {
+    id
+    title
+    slug
+    episode_number
+    date
+    description
+    spreaker_id
+    tags {
+      name
+    }
+    cover {
+      url
+      width
+      height
+    }
+    audio {
+      url
+    }
+    podcast {
+      id
+      title
+      slug
+    }
+  }
+}
+
+###
+@ep1 = {{pippo.response.body.$.data.episodes[0].slug}}
+@ep2 = {{pippo.response.body.$.data.episodes[1].slug}}
+
+###
+POST {{baseUrl}}
+Content-Type: application/json
+X-REQUEST-TYPE: GraphQL
+
+query Episodes($slug: String!) {
+  episodes(where: {slug: $slug}) {
+    id
+    title
+    slug
+    episode_number
+    date
+    description
+    spreaker_id
+    tags {
+      name
+    }
+    cover {
+      url
+      width
+      height
+    }
+    audio {
+      url
+    }
+    podcast {
+      title
+      slug
+    }
+  }
+}
+
+{
+  "slug": "{{ep2}}"
+}

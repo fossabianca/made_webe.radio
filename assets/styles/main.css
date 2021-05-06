@@ -1,0 +1,6 @@
+.markdown-body {
+  color: black;
+}
+.dark .markdown-body {
+  color: white;
+}

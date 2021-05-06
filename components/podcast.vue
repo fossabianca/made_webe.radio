@@ -14,17 +14,14 @@
         </agile>
         <div class="container max-w-7xl mx-auto text-center break-normal">
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                    Altro
+                    <NuxtLink to="/podcasts">Altro</NuxtLink>
                     </button>
 		</div>	
 </div>
 </template>
 
 <script>
-import Vue from 'vue'
-import VueAgile from 'vue-agile'
 
-Vue.use(VueAgile)
 export default {
 }
 </script>

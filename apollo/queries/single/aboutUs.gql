@@ -1,0 +1,12 @@
+query AboutUS {
+  aboutUs {
+    title
+    about
+    cover {
+      url
+    }
+    attachment {
+      url
+    }
+  }
+}

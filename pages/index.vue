@@ -1,7 +1,7 @@
 
 <template>
 
-<div class="container">
+<div>
         <navbar></navbar>
         <home></home>
         <podcast></podcast>

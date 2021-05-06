@@ -1,5 +1,5 @@
 {
-  "name": "MaDe",
+  "name": "webe-radio-nuxt",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "core-js": "^3.9.1",
+    "graphql": "^15.5.0",
+    "install": "^0.13.0",
+    "markdown-it-vue": "^1.1.6",
     "nuxt": "^2.15.3",
     "vue-agile": "^1.1.3"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.0.1",
-    "postcss": "^8.2.8"
+    "@nuxtjs/color-mode": "^2.0.5",
+    "@nuxtjs/tailwindcss": "^4.0.3",
+    "postcss": "^8.2.9",
+    "tailwindcss-dark-mode": "^1.1.7"
   }
 }
