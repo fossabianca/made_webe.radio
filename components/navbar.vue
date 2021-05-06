@@ -1,5 +1,5 @@
 <template>
-<div class="h-screen w-16 menu bg-white text-white px-2 flex items-center nunito static fixed shadow">
+<div class="h-screen w-16 menu bg-skyblue dark:bg-gray-700 text-white px-2 flex items-center nunito static fixed shadow">
 
         <ul class="list-reset ">
             <li class="my-2 md:my-0 ">

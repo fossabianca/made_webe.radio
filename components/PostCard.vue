@@ -1,5 +1,5 @@
 <template>
-    <div class="text-gray-700 dark:text-white dark:bg-gray-700 relative max-w-sm rounded overflow-hidden shadow-lg mb-6">
+    <div class="text-gray-500 dark:text-white dark:bg-gray-500 relative max-w-sm rounded overflow-hidden shadow-lg mb-6">
       <img
         alt="Cover image"
         v-if="post.image"
