@@ -5,11 +5,17 @@
         <navbar></navbar>
         <home></home>
         <podcast></podcast>
+        <news></news>
         <about></about>
 
 </div>
 
 </template>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
 
 <script>
 import About from '../components/about.vue'

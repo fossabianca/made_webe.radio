@@ -1,0 +1,6 @@
+query Episode {
+  episodes(sort: "created_at:desc") {
+    created_at
+    title
+  }
+}

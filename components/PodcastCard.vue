@@ -1,5 +1,5 @@
 <template>
-    <div class="text-gray-700 dark:text-white dark:bg-gray-700 relative max-w-sm rounded overflow-hidden shadow-lg mb-6">
+    <div class="text-gray-500 dark:text-white dark:bg-gray-500 relative max-w-sm rounded overflow-hidden shadow-lg mb-6">
       <img
         alt="Cover image"
         v-if="podcast.cover"
@@ -8,10 +8,6 @@
       />
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2" v-html="podcast.title" />
-        <markdown-it-vue class="text-gray-700 dark:text-gray-50 text-xs" :content="description" />
-
-        <EpisodesList :podcast="podcast" />
-        <Tags :post="podcast" />
         <NuxtLink
           class="link w-1/2 flex items-center justify-center rounded-md bg-black text-white"
           :to="'/podcasts/'+podcast.slug"

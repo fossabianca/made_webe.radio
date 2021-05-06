@@ -1,7 +1,8 @@
 <template>
-<div id="podcast" class="container max-w-7xl mx-auto pt-16 md:pt-32 break-normal">
-    <h1 class="font-black uppercase text-3xl">Podcast</h1>
-     <form class="flex justify-center items-center px-4 sm:px-6 lg:px-8">
+<div id="news" class="container max-w-7xl mx-auto pt-16 md:pt-32 break-normal">
+
+    <h1 class="font-black uppercase text-3xl">news</h1>
+    <form class="flex justify-center items-center px-4 sm:px-6 lg:px-8">
       <div class="relative">
         <input
         class="h-14 w-96 pr-8 pl-5 rounded-full z-0 dark:text-gray-700 shadow dark:shadow-inner focus:outline-none"
@@ -14,49 +15,47 @@
     </form>
 
     <section class="flex flex-col flex-wrap md:flex-row gap-3 mt-6">
-    <PodcastCard
-          v-for="podcast in filteredList"
-          :key="podcast.id"
-          :podcast="podcast"
+    <PostCard
+          v-for="post in filteredList"
+          :key="post.id"
+          :post="post"
       />
     </section>
-</div>
+    </div>
+  </div>
 </template>
 
 <script>
-import podcastsQuery from "~/apollo/queries/podcast/podcasts";
-import PodcastCard from "~/components/PodcastCard.vue";
+// Import the restaurants query
+import postsQuery from "~/apollo/queries/post/posts";
+import PostCard from "~/components/PostCard.vue";
 
 export default {
   components: {
-    PodcastCard,
+    PostCard,
   },
 
   data() {
     return {
       // Initialize an empty restaurants variabkle
-      podcasts: [],
+      posts: [],
       searchQuery: "",
     };
   },
   apollo: {
-    podcasts: {
+    posts: {
       prefetch: true,
-      query: podcastsQuery,
+      query: postsQuery,
     },
 
   },
   computed: {
     // Search system
     filteredList() {
-      return this.podcasts.filter((podcast) => {
-        return podcast.title.toLowerCase().includes(this.searchQuery.toLowerCase());
+      return this.posts.filter((post) => {
+        return post.title.toLowerCase().includes(this.searchQuery.toLowerCase());
       });
     },
   },
 };
 </script>
-
-<style>
-
-</style>

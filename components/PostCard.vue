@@ -8,9 +8,6 @@
       />
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2" v-html="post.title" />
-        <markdown-it-vue class="text-gray-700 dark:text-gray-50 text-xs" :content="article" />
-
-        <Tags :post="post" />
         <NuxtLink
           class="link w-1/2 flex items-center justify-center rounded-md bg-black text-white"
           :to="'/posts/'+post.slug"
