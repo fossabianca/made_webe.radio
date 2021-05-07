@@ -1,7 +1,6 @@
 <template>
-        <!-- // Link to go back to the previous page -->
-    <a title=" « Indietro" @click="$router.go(-1)" rel="back" class="flex items-center px-4 py-2 space-x-3 max-w-max mb-6 text-gray-600 transition-colors duration-200 transform border rounded-lg dark:text-gray-200 dark:border-gray-200 hover:bg-gray-100 cursor-pointer dark:hover:bg-gray-900 focus:outline-none">
-        <slot>« Indietro</slot>
+    <a title="indietro" @click="$router.go(-1)" rel="back" class="flex items-center px-4 py-2 space-x-3 max-w-max mb-6 text-gray-600 transition-colors duration-200 transform  rounded-lg dark:text-gray-200 hover:bg-gray-100 cursor-pointer dark:hover:bg-gray-900 focus:outline-none">
+        <slot class="text-2xl">˂˂</slot>
     </a>
 </template>
 

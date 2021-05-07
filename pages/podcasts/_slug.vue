@@ -1,12 +1,14 @@
 <template>
   <div>
-    <BackButton />
+   
     <ClientOnly>
       <main class="px-6">
+        <div class="flex">
+        <BackButton />
         <h1 class="text-2xl mb-6">
           {{ podcasts[0].title }}
         </h1>
-
+        </div>
         <div>
           <img
             class="shadow-lg rounded-lg"

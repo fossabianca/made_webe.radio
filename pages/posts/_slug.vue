@@ -2,11 +2,12 @@
   <div class="px-6">
     
     <main>
-      <BackButton />
+      <div class="flex">
+        <BackButton />
       <h1 class="text-2xl mb-6">
         {{ posts[0].title }}
       </h1>
-
+      </div>
       <div>
         <img
           class="shadow-lg rounded-lg max-w-prose"
@@ -20,10 +21,10 @@
         :content="article"
       />
 
-      <div>
+      <div class="bg-blue-200 dark:bg-blue-500">
         <PostList :posts="related" />
       </div>
-      <div class="">
+      <div class="bg-gray-200 dark:bg-gray-500">
         <Tags :post="posts[0]" />
       </div>
     </main>
