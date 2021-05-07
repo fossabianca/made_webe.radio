@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-20">
    
     <ClientOnly>
       <main class="px-6">
