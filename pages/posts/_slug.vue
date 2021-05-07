@@ -1,7 +1,8 @@
 <template>
   <div class="px-6">
-    <BackButton />
+    
     <main>
+      <BackButton />
       <h1 class="text-2xl mb-6">
         {{ posts[0].title }}
       </h1>
