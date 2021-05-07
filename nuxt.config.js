@@ -33,6 +33,7 @@ export default {
   buildModules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
+    '@nuxtjs/fontawesome',  
   ],
   tailwindcss: {
     jit: true
