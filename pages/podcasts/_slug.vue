@@ -19,10 +19,10 @@
         </div>
         <markdown-it-vue class="text-gray-700 text-3xl p-2 mt-0.5" :content="description" />
 
-        <div>
+        <div class="bg-blue-200 dark:bg-blue-500">
           <EpisodesList :podcast="podcasts[0]" />
         </div>
-        <div class="">
+        <div class="bg-gray-200 dark:bg-gray-500">
           <Tags :post="podcasts[0]" />
         </div>
 
