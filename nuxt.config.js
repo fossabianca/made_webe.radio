@@ -32,8 +32,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
-    '@nuxtjs/fontawesome',  
+    '@nuxtjs/color-mode',  
   ],
   tailwindcss: {
     jit: true

@@ -6,7 +6,8 @@
               WeBe Radio
 					</p>
 					<p class="text-xl md:text-2xl text-gray-500">Benvenuti su WeBe Radio</p>
-					<div class="mouse_scroll">
+					<a href="#podcast">
+    <div class="mouse_scroll">
 
 					<div class="mouse">
 			<div class="wheel"></div>
@@ -17,6 +18,7 @@
 			<span class="m_scroll_arrows trei"></span>
 		</div>
 </div>
+          </a>
 			</div>
 	</div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-<div id="about" class="container max-w-7xl mx-auto break-normal">
+<div id="about" class="container max-w-7xl mx-auto break-normal p-20">
 <h1 id="progetto-webe-radio" class="font-black uppercase">Progetto Webe-radio</h1>
 <br>
 <h2 id="sintesi" class="font-black">Sintesi</h2>
