@@ -1,6 +1,6 @@
 <template>
 <div id="about" class="container max-w-7xl mx-auto break-normal p-20">
-<h1 id="progetto-webe-radio" class="font-black uppercase">Progetto Webe-radio</h1>
+<h1 id="progetto-webe-radio" class="font-black uppercase text-3xl">Progetto Webe-radio</h1>
 <br>
 <h2 id="sintesi" class="font-black">Sintesi</h2>
 <p>Il progetto Webe radio mira alla realizzazione di una web radio, costituita e gestita da una rete di scuole distribuite sul territorio provinciale, e precisamente l’Istituto Tecnico Tecnologico “Marconi” di Rovereto (capofila), Istituto Tecnico Economico &quot;A. Tambosi&quot; di Trento e Istituto di Istruzione &quot;La Rosa Bianca&quot; di Cavalese/Predazzo.</p>

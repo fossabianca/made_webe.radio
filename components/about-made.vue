@@ -1,6 +1,6 @@
 <template>
 <div id="about" class="container max-w-7xl mx-auto break-normal p-20">
-<h1 class="font-black uppercase">progetto made</h1>
+<h1 class="font-black uppercase text-3xl">progetto made</h1>
 <br>
 <p>Il Progetto, già sperimentato nei precedenti quattro anni scolastici, prevede la collaborazione tra il nostro Istituto e il Liceo Artistico “F.Depero” di Rovereto con l’obiettivo finale di realizzare siti web coniugando le diverse competenze che gli indirizzi presenti permettono agli studenti di acquisire. 
 Nello specifico verranno coinvolti gli studenti dell’indirizzo di Grafica del Liceo Artistico “F. Depero” che si occuperanno prevalentemente dell’interfaccia grafica in tutti gli aspetti di loro competenza, mentre gli studenti dell’indirizzo di Informatica del nostro Istituto si occuperanno della realizzazione della struttura del sito web e della gestione dell&#39;archivio delle informazioni.
