@@ -7,7 +7,8 @@
 $ yarn install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ on linux: NUXT_ENV_API_URI=https://api.webe.radio yarn dev
+$ on windows: set NUXT_ENV_API_URI=https://api.webe.radio && yarn dev
 
 # build for production and launch server
 $ yarn build
